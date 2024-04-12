@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('./image/wallpaper.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgba(216, 210, 210, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); /* Shadow effect */
+    border: 2px solid black; /* Add a border */
+    margin: 20px; /* Add some margin to the container */
+    width: 80%; /* Set width to ensure it doesn't extend too wide */
+    max-width: 600px; /* Add max-width to avoid stretching too much */
+}
+
+h1 {
+    text-align: center;
+    font-size: 3.5em;
+    margin-bottom: 10px; /* Reduce margin to move closer to the top */
+    color: #000000; /* Set text color to white */
+    font-family: "Helvetica", Arial, sans-serif; /* Set font family */
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.2); /* Add a subtle text shadow */
+    letter-spacing: 1px; /* Add letter spacing for better readability */
+    line-height: 1.2; /* Set line height for better spacing */
+}
+
+
+
+
+h2 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    margin-top: 20px; /* Reduce the margin */
+}
+
+input[type="file"] {
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.2em;
+    margin: 0; /* Reset margin */
+}
+
+li {
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
